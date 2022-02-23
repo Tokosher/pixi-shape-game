@@ -1,0 +1,1 @@
+export type FieldTypes = 'shapesOnScreen' | 'shapesArea' | 'shapesPerSec' | 'gravity';

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shape Game</title>
+    <script src="../node_modules/pixi.js/dist/browser/pixi.js"></script>
+    <script src="../node_modules/pixi-ease/dist/ease.js"></script>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="counters">
+    <div class="counter magenta">
+        Number of current shapes
+        <br>
+        <h3 id="shapesCount">0</h3>
+    </div>
+    <div class="counter green">
+        Surface area occupied by shapes
+        <br>
+        <h3 id="square">0</h3>
+    </div>
+</div>
+<div class="gameArea"></div>
+<div class="shapesCounters">
+    <button type="button" class="btn btn-primary" id="decrementButtonShapes">-</button>
+    <button type="button" class="btn btn-primary" id="incrementButtonShapes">+</button>
+    <p1 id="shapesCountPerSec" class="border border-primary">1</p1>
+    <h5>Number of shapes per sec</h5>
+</div>
+
+<div class="gravityCounters">
+    <button type="button" class="btn btn-info" id="decrementGravity">-</button>
+    <button type="button" class="btn btn-info" id="incrementGravity">+</button>
+    <p1 id="gravityValue" class="border border-info">1</p1>
+    <h5>Gravity value</h5>
+</div>
+
+<br>
+
+</body>
+</html>
